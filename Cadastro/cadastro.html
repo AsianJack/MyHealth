@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Cadastro</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="cadastro.css" />
+
+    <script type="module" src="/JavaScript/cadastro.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="luisao">
+            <img src="/Imagens/icon-vaccineluisao-removebg-preview.png" alt="...">
+            <h1>MyHealth</h1>
+        </div>
+    </header>
+
+
+    <div class="box">
+        <div class="leandro">
+            <p class="nome">Nome Completo</p>
+            <p class="label">Sexo</p>
+            <p class="nascimento">Data nascimento</p>
+            <p class="emal">E-mail</p>
+            <p class="repetir">Senha</p>
+            <p class="repetir">Repetir senha</p>
+        </div>
+        <div class="william">
+            <input type="text" class="inp_init"><br>
+            <input type="radio" class="ponto inp" name="sexo"> <span class="spanzin inp">Masculino</span>
+            <input type="radio" class="ponto inp" name="sexo"> <span class="spanzin inp">Feminino</span>
+            <input type="date" class="data inp"><br>
+            <input type="email" id="email" class="inp"><br>
+            <input type="password" id="primeiro" class="inp" required><br>
+            <input type="password" id="segundo" class="inp senha" required><br>
+            <span id="nao">Senha não confere</span>
+            <button id="confirmar">Cadastrar</button>
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>

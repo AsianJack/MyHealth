@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+* {
+    font-family: 'Averia Libre', cursive;
+    margin: 0;
+    padding: 0;
+    color: #419ED7;
+}
+
+body, html{
+    height: 100%;
+}
+
+header{
+    background-color: #C1E7E3;
+    height: 10%;
+    padding: 0% 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.luisao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxbtn{
+    display: flex;
+}
+.minhasvacinas{
+    margin-right: 20px;
+}
+.logout{
+    height: 45px;
+    width: 114px;
+    background-color: #419ED7;
+    color: white;
+    border: 1px solid #419ED7;
+    font-size: 1.3rem;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 0px 1px rgba(0,0,0, 20%);
+}
+.btn{
+    height: 45px;
+    width: 180px;
+    background-color: #419ED7;
+    color: white;
+    border: 1px solid #419ED7;
+    font-size: 1.3rem;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 0px 1px rgba(0,0,0, 20%);
+}
+
+.box{
+    width: 100%;
+    height: 80%;
+    background-color: rgba(173, 212, 208, 1);
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid{
+    display: grid;
+    text-align: center;
+    justify-content:  center;
+    grid-template-columns: auto auto auto;
+    gap: 5%;
+    align-items: center;
+    width: 100%;
+    padding: 60px 30px;
+    overflow-y: auto;
+
+}
+.imgvacina{
+    height: 146px;
+    width: 300px;
+}
+.grid-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    width: 330px;
+    border-radius: 3%;
+}
+.nome{
+    margin: 15px 0px;
+    font-size: 36px;
+}
+.dose{
+    font-size: 16px;
+    width: 88.22px;
+    background-color: #3F92C5;
+    color: white;
+    text-align: center;
+}
+.data{
+    color: #8B8B8B;
+    margin-bottom: 15px;
+}
+.proximadose{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.proximadose span{
+    color: #FD7979;
+    font-size: 16px;
+}
+.botao{
+    position: absolute;
+
+}
+.novacina{
+    width: 188px;
+    height: 50px;
+    background-color: #37BD6D;
+    color: white;
+    border: 0;
+    font-size: 1.4rem;
+    box-shadow: 1px 2px 0px 0.5px rgba(0,0,0, 20%);
+}
+footer{
+    padding-top: 0.5%;
+    display: flex;
+    justify-content: center;
+    height: 8.8%;
+    background-color: rgba(173, 212, 208, 1);
+}
+.pesquisar{
+    background-color: rgba(173, 212, 208, 1);
+    height: 5%;
+    padding-top: 5px;
+    position: absolute;
+}
+.barra{
+    margin-left: 50px;
+    margin-top: 5px;
+    height: 30px;
+    width: 1370px;
+    padding-left: 4%;
+    border: 0;
+    font-size: 20px;
+    background-image: url('/Imagens/icon.png');
+    background-repeat: no-repeat;
+    background-position: 1% 50%;
+
+}

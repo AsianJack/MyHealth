@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Editar Vacina</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="editar.css" />
+    <script type="module" src="/JavaScript/editarVacina.js">
+        
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="luisao">
+            <img src="/Imagens/icon-vaccineluisao-removebg-preview.png" alt="...">
+            <h1>MyHealth</h1>
+        </div>
+        <div class="boxbtn">
+            <div class="minhasvacinas">
+                <button class="btn" id="minhavacinas">
+                    Minhas Vacinas
+                </button>
+            </div>
+            <div class="sair">
+                <button class="logout" id="logout">
+                    Logout
+                </button>
+            </div>
+        </div>
+
+    </header>
+    <div class="box">
+        <button id="excluir"><img src="/Imagens/trash 2.jpg" id="trash"> Excluir</button>
+        <div class="leandro">
+            <p>Data de Vacinação</p>
+            <p>Vacina</p>
+            <p>Dose</p>
+            <p>Comprovante da Vacina</p><br><br><br><br>
+            <p class="proximavacina">Próxima vacinação</p>
+        </div>
+        <div class="william">
+            <div class="boxinp">
+                <input type="date" id="datavacina" class="inp_init data"><br>
+                <input type="text" id="vacina" class="inp"><br>
+            </div>
+            <div class="inputes">
+                <input type="radio" class="ponto" name="sexo" value="1a. dose"> <span class="spanzin"> 1a. dose</span>
+                <input type="radio" class="ponto" name="sexo" value="2a. dose"> <span class="spanzin"> 2a. dose</span>
+                <input type="radio" class="ponto" name="sexo" value="3a. dose"> <span class="spanzin"> 3a. dose</span>
+                <input type="radio" class="ponto" name="sexo" value="Reforço"> <span class="spanzin"> Reforço</span>
+                <input type="radio" class="ponto" name="sexo" value="Dose Única"> <span class="spanzin"> Dose Única</span>
+            </div>
+            <div id="blocoimagem">
+                <button class="imagembtn">Selecionar imagem...</button>
+                <input type="file" class="inp arquivo" id="imagem"><br>
+                <img id="imgvacina" class="imagemvacina" alt="" width="230" height="120">
+            </div>
+
+            <input type="date" id="proximavacina" class="inp proxima"><br>
+
+            <button class="cadastrar" id="editar">Salvar Alterações</button>
+        </div>
+        <div id="popup">
+            <div id="popmid">
+                <span class="certeza">Tem certeza que deseja remover essa vacina?</span><br>
+                <div class="simcancelar">
+                    <div>
+                        <button id="sim">SIM</button>
+                    </div>
+                    <div>
+                        <button id="cancelar">CANCELAR</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

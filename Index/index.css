@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+/*display flex n deixa amassa*/
+*{
+    font-family: 'Averia Libre', cursive;
+    margin: 0;
+    padding: 0;
+    color: rgba(65, 158, 215, 1)
+}
+header{
+    background-color: rgba(143, 225, 217, 1);
+    height: 10%;
+    padding: 0 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.luisao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.luisao img{
+    margin-right: 5%;
+}
+
+.box{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.imgluisao{
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    opacity: 30%;
+    background-color: linear-gradient(179.55deg, rgba(255, 255, 255, 0.24) 15.85%, rgba(255, 255, 255, 0.48) 40.1%, rgba(255, 255, 255, 0) 68.12%);
+}
+.box h1{
+    position: relative;
+    font-size: 64px;
+    opacity: 100%;
+}
+.box button{
+    position: relative;
+    height: 50px;
+    width: 262px;
+    margin-top: 25%;
+    background-color: #419ED7;
+    color: white;
+    border: 1px solid #419ED7;
+    font-size: 1.6rem;
+    box-sizing: border-box;
+        
+}
+
+.btn{
+    position: relative;
+    height: 45px;
+    width: 198px;
+    background-color: #419ED7;
+    color: white;
+    border: 1px solid #419ED7;
+    font-size: 1.3rem;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 0px 1px rgba(0,0,0, 20%);
+}
+
+

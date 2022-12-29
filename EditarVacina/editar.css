@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+* {
+    font-family: 'Averia Libre', cursive;
+    margin: 0;
+    padding: 0;
+    color: #419ED7;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+header {
+    background-color: #C1E7E3;
+    height: 10%;
+    padding: 0% 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.luisao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxbtn {
+    display: flex;
+}
+
+.minhasvacinas {
+    margin-right: 20px;
+}
+
+.logout {
+    height: 45px;
+    width: 114px;
+    background-color: #419ED7;
+    color: white;
+    border: 1px solid #419ED7;
+    font-size: 1.3rem;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 0px 1px rgba(0, 0, 0, 20%);
+}
+
+.btn {
+    height: 45px;
+    width: 180px;
+    background-color: #419ED7;
+    color: white;
+    border: 1px solid #419ED7;
+    font-size: 1.3rem;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 0px 1px rgba(0, 0, 0, 20%);
+}
+
+.box {
+    width: 100%;
+    height: 90%;
+    background-color: rgba(173, 212, 208, 1);
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.leandro {
+    color: white;
+    margin-left: 3%;
+    margin-top: 0.5%;
+    font-size: 33px;
+    text-align: right;
+}
+
+.leandro p {
+    width: 398px;
+    margin-top: 8%;
+}
+
+
+.william {
+    margin-left: 1%;
+    flex-direction: column;
+    font-size: 1.4rem;
+    margin-top: 3%;
+}
+
+.inp {
+    width: 300px;
+    height: 36px;
+    margin-top: 2.9%;
+    color: #419ED7;
+    font-size: 1.4rem;
+}
+
+.inp_init {
+    font-size: 1.4rem;
+
+    width: 300px;
+    height: 36px;
+    color: #419ED7;
+}
+
+.inputes {
+    display: flex;
+}
+
+.boxinp {
+    margin-bottom: 10px;
+}
+
+.ponto {
+    color: #419ED7;
+    width: 3%;
+    margin-right: 5px;
+    margin-top: 2.5%;
+}
+
+.ponto::after {
+    background-color: #419ED7;
+}
+
+.arquivo {
+    position: absolute;
+    margin-top: 2%;
+    opacity: 0;
+}
+
+.imagembtn {
+    position: absolute;
+    margin-top: 2%;
+    width: 300px;
+    height: 36px;
+    background-color: #419ED7;
+    color: white;
+    font-size: 1.6rem;
+    border: 0;
+    box-shadow: 1px 2px 0px 0.5px rgba(0, 0, 0, 20%);
+}
+
+.imagemvacina {
+    margin-top: 5.5%;
+    max-height: 146px;
+}
+
+.spanzin {
+    width: 165px;
+    height: 36px;
+    margin-top: 3%;
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+.proximavacina {
+    margin-top: 10%;
+}
+
+.proxima {
+    margin-top: 3%;
+}
+
+.cadastrar {
+    width: 188px;
+    height: 50px;
+    background-color: #37BD6D;
+    color: white;
+    border: 0;
+    font-size: 1.4rem;
+    box-shadow: 1px 2px 0px 0.5px rgba(0, 0, 0, 20%);
+    margin-top: 30px;
+    margin-left: 22%;
+}
+
+#excluir {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 133px;
+    height: 44px;
+    background-color: #FD7979;
+    color: white;
+    border: 0;
+    font-size: 1.4rem;
+    box-shadow: 1px 2px 0px 0.5px rgba(0, 0, 0, 20%);
+    margin-top: 10px;
+    margin-left: 89.5%;
+}
+
+#trash {
+    margin-right: 8px;
+}
+
+#popup {
+    position: fixed;
+    padding: 0;
+    left: 0;
+    top: 0;
+    display: none;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    z-index: 2000;
+    background-color: rgba(0, 0, 0, .5);
+}
+#popmid{
+    margin-top: 13%;
+    width: 698px;
+    height: 317px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.simcancelar {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    margin-top: 10%;
+}
+
+#sim {
+    width: 216px;
+    height: 71px;
+    margin-right: 50px;
+    font-size: 36px;
+    color: #FFFFFF;
+    background: #FF8383;
+    border: 0;
+}
+
+#cancelar {
+    width: 216px;
+    height: 71px;
+    margin-left: 10px;
+    font-size: 36px;
+    color: #FFFFFF;
+    background-color: #3F92C5;
+    border: 0;
+}
+
+.certeza {
+    margin-bottom: 20%;
+    font-size: 30px;
+    color: #FD7979;
+    text-align: center;
+}
+#blocoimagem{
+    min-height: 230px;
+}
